@@ -1,12 +1,10 @@
 from flask import Flask, render_template, flash, url_for, redirect, request
-from form import LoginForm
+from flask import current_app as app
+from app.form import LoginForm,RegistrationForm
 
 from datetime import datetime
 import random, os
 
-'''With wtforms, we have to configure a secret_key, here we just hard code it but normaly we shouldn't'''
-app = Flask(__name__)
-app.config['SECRET_KEY']="kbfvizrguzourgu"
 
 @app.route('/')
 #@app.route('/home')
