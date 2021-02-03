@@ -13,7 +13,43 @@ app.config['SECRET_KEY']="kbfvizrguzourgu"
 def index():
     '''Here we configure the url path, and with we return a html, it's the same with other functions'''
 
-    return render_template('index.html', message="Hello !")
+    message = "Hello !"
+
+    return render_template('index.html', message=message)
+
+@app.route('/user_pref', methods=['GET', 'POST'])
+def user_pref():
+    '''Here we configure the url path, and with we return a html, it's the same with other functions'''
+
+    message = "Quoi?"
+
+    return render_template('user_pref.html', message=message)
+
+@app.route('/user_pref/location', methods=['GET', 'POST'])
+def user_pref_location():
+    '''Here we configure the url path, and with we return a html, it's the same with other functions'''
+
+    message = "Où?"
+
+    return render_template('user_pref_location.html', message=message, methods=['GET', 'POST'])
+
+@app.route('/user_pref/location/animation', methods=['GET', 'POST'])
+def user_pref_animation():
+    '''Here we configure the url path, and with we return a html, it's the same with other functions'''
+
+    message = "Animation?"
+
+    return render_template('user_pref_animation.html', message=message)
+
+
+
+
+
+
+
+
+
+    
 
 @app.route('/status')   #get
 def status():
@@ -49,4 +85,4 @@ def predict():
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='0.0.0.0', port=port, debug= True)
