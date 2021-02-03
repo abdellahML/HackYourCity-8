@@ -4,10 +4,17 @@
 <h3>
     {{message}}
 </h3>
-<div>
-    <a href='/user_pref/location' id=test>
-        <input type='image' src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200">
-    </a>
-</div>
+<form action="user_pref" method="POST" onchange="this.submit()">
+   <!--
+    <input type="radio" value="v0" class="face" name="face" src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200" alt="choix_0">
+    <input type="image" value="v1" class="face" name="face" src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200" alt="choix_1">
+     -->
+    <input type="radio" name="face" value="choix0" id="choix0"><label for="choix0" checked="true">
+        <img src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200">
+    </label>
+    <input type="radio" name="face" value="choix1" id="choix1"><label for="choix1" checked="true">
+        <img src="{{ url_for('static',  filename='image/face.png') }}" width="200" height="200">
+    </label>
+</form>
 
 {% endblock %}

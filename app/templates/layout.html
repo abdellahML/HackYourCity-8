@@ -4,6 +4,11 @@
     <meta charset='utf8'>
     <title>Challenge flask api</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='design.css') }}">
+    <style>
+        input[type="radio"] {
+            display: none;
+        }
+    </style>
 </head>
 <body>
     <div id='content'>
@@ -19,4 +24,13 @@
         {% block content %}{% endblock %}
     </div>
 </body>
+
+<script type='text/javascript'>
+//    for(var i = 0; i < 2; i++) {
+//        img[i].addEventListener('change', function() {
+//            form.submit();
+//        })
+//    }
+    console.log(form.innerHTML);
+</script>
 </html>

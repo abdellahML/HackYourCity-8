@@ -18,27 +18,31 @@ def index():
 @app.route('/user_pref', methods=['GET', 'POST'])
 def user_pref():
     '''Here we configure the url path, and with we return a html, it's the same with other functions'''
-
+    
     message = "Quoi?"
+    test = ""
 
-    if request.method == "POST":
-
-        req = request.args.values.__name__
-        print(req)
-
+    if request.method == 'POST':
+        
+        print('test')
+        for keys, val in request.form.items():
+        
+            print(keys)
+            print(val)
+            test = val
+            return redirect(url_for('user_pref/location{test}'))
+        print('test2')
+        
     return render_template('user_pref.html', message=message)
+    
 
-@app.route('/user_pref/location', methods=['GET', 'POST'])
+@app.route('/user_pref/location<location>', methods=['GET', 'POST'])
 def user_pref_location():
     '''Here we configure the url path, and with we return a html, it's the same with other functions'''
 
+    print(location)
     message = "Où?"
-
-    if request.method == "GET":
-
-        req = request.get_data('name')
-        print(req)
-
+    
     return render_template('user_pref_location.html', message=message, methods=['GET', 'POST'])
 
 @app.route('/user_pref/location/animation', methods=['GET', 'POST'])

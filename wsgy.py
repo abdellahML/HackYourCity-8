@@ -1,4 +1,5 @@
 from app import init_app
+from flask import session
 
 app = init_app()
 
