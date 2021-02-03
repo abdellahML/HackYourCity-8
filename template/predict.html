@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div id='predict_label'>
+    <h3>Month: </h3> 
+    <h3>Visitors: </h3> 
+    <h3>Sellers: </h3> 
+    <h3>Prediction: </h3> 
+</div>
+<div id='predict'>
+    <h4>{{month}}</h4>
+    <h4>{{custumor_visiting_website}}</h4>
+    <h4>{{seller_available}}</h4>
+    <h4>{{prediction}}</h4>
+</div>
+
+{% endblock %}

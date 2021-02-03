@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div>
+    <form method="POST" action="/login">
+        <fieldset class="form-group">
+            <legend>Login</legend>
+            {{form.hidden_tag()}}
+                {{form.username(autofocus=true, class='login', placeholder='Username')}}
+                {{form.password(class='login', placeholder='Password')}}                
+                {{ form.submit(class="btn btn-outline-info") }}
+        </fieldset>
+    </form>
+</div>
+
+{% endblock %}

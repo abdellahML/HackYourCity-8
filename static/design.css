@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#content {
+    width: 75%;
+    margin: 0 auto;
+    background: rgb(77, 169, 230);
+    overflow: hidden;
+}
+nav {
+    background: rgb(32, 147, 224);
+}
+    ul li:hover {
+        background: rgb(25, 118, 180);
+    }
+    a li {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        display: inline-block;
+        list-style: none;
+        width: calc(25% - 3px);
+        line-height: 2em;
+    }
+fieldset {
+    width: 30%;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: 1px solid rgb(25, 118, 180);
+    border-radius: 5px;
+}
+    legend {
+        padding: 0 7px;
+        border-width: 0 1px;
+        border-style: solid;
+        border-color: rgb(25, 118, 180);
+        text-transform: capitalize;
+        font-size: .8em;
+    }
+    input {
+        line-height: 2em;
+        margin-top: 10px;
+    }
+    input.login {
+        width: 100%;
+        border: none;
+        text-indent: 10px;
+    }
+    input[type='submit'] {
+        width: 100%;
+        border: none;
+        background: rgb(25, 118, 180);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+
+#predict_label{
+    width: calc(20% - 2px);
+    display: inline-block;
+}
+#predict{
+    width: calc(80% - 2px);
+    display: inline-block;
+}
+
+h3{
+    color:white;
+    padding: 10px;
+    width: 100%;
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+}
+h4{
+    color:white;
+    padding: 10px;
+    width: 100%;
+    display: inline-block;
+    font-size: large;
+    font-weight: lighter;
+}
+
+.alert-success {
+    background: seagreen;
+    color: springgreen;
+}
