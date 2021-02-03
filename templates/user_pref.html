@@ -4,8 +4,10 @@
 <h3>
     {{message}}
 </h3>
-<form>
-    <a href='/user_pref/location' id=test><input type="submit" value="go" /></a>
-</form>
+<div>
+    <a href='/user_pref/location' id=test>
+        <input type='image' src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200">
+    </a>
+</div>
 
 {% endblock %}

@@ -29,7 +29,7 @@ def user_pref():
 def user_pref_location():
     '''Here we configure the url path, and with we return a html, it's the same with other functions'''
 
-    message = "Où?"
+        message = "Où?"
 
     return render_template('user_pref_location.html', message=message, methods=['GET', 'POST'])
 
