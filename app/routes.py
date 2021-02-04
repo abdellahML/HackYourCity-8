@@ -102,8 +102,11 @@ def resultat(what,location, animation,user):
 
     message = "Voyons voir ce qu'on pourrait vous proposer..."
     propositions = dataCollecting.return_activities_places(dataCollecting,what=what,location=location,animation=animation)
-    return render_template('resultat.html', message=message,what=what,location=location, animation=animation,user=user,propositions=propositions)
-
+    try:
+        return render_template('resultat.html', message=message,what=what,location=location, animation=animation,user=user,propositions=propositions)
+    except:
+        message="Oups!!!"
+        return render_template('oups.html', message=message)
 
 
 @app.route('/login', methods=['GET', 'POST'])    #post and get

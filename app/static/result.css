@@ -1,0 +1,37 @@
+#result {
+    margin: 20px 0;
+    padding: 10px 30%;
+    border: 1px solid rgb(31, 45, 66);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: 28% auto;
+    background-position-x: 5px;
+    background-position-y: 5px;
+    overflow: hidden;
+    line-height: 1.4em;
+}
+#result:hover {
+    opacity: .8;
+}
+#send {
+    text-align: center;
+    height: 40px;
+}
+#send a {
+    font-size: 18px;
+    background: white;
+    padding: 5px 10px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+#send a:hover {
+    color: red;
+    background: yellow;
+}
+#send a:active {
+    color: green;
+}
+#send a:visited {
+    color: purple;
+}

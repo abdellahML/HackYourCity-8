@@ -1,10 +1,9 @@
 {% extends "layout.html" %}
 {% block content %}
 
-<h3>
+<div id="message">
     {{message}}
-
-</h3>
+</div>
 <!--
     {{what}}
     {{location}}
@@ -12,31 +11,44 @@
 -->
 
 <div>
-    <div class="result">
-        <ul>
-        {% for propo in propositions %}
-            <p>------</p>
-            <li><strong>Event</strong></p>: {{propo[0]}}<br></li>
-            <li><strong> Date</strong> {{propo[1]}}<br></li>
-            <li><strong>Adresse:</strong> {{propo[2]}}<br></li>
-            <li><strong>Ville :</strong> {{propo[3]}}<br></li>
-            <li><strong>Plus d'infos :</strong>{{propo[4]}}<br></li>
-            <li><strong>Horaire et Tarifs :</strong>{{propo[5]}}<br></li>
-            <li><strong>Site :</strong>{{propo[6]}}<br></li>
-        {% endfor %}
-        </ul>
+    {% for propo in propositions %}
+    <div id="result" style="background-image: url({{ url_for('static', filename='image/concert1.jpeg')}})">
+        <div class="result proposition">
+            <label>Event : </label>
+            <span class="proposition event">{{propo[0]}}</span>
+        </div>
+        <div class="result proposition">
+            <label>Date : </label>
+            <span class="proposition date">{{propo[1]}}</span>
+        </div>
+        <div class="result proposition">
+            <label>Adresse : </label>
+            <span class="proposition address">{{propo[2]}}</span>
+        </div>
+        <div class="result proposition">
+            <label>Ville : </label>
+            <span class="proposition town">{{propo[3]}}</span>
+        </div>
+        <div class="result proposition">
+            <label>Plus d'infos : </label>
+            <span class="proposition desc">{{propo[4]}}</span>
+        </div>
+        <div class="result proposition">
+            <label>Horaire et Tarifs : </label>
+            <span class="proposition schedule">{{propo[5]}}</span>
+        </div>
+        <div class="result proposition">
+            <label>Site : </label>
+            <span class="proposition site">{{propo[6]}}</span>
+        </div>
     </div>
-    <div class="result">
-
-    </div>
-    <div class="result"> 
-
+    {% endfor %}
+    <div id="send">
+        <form id='validate'>
+            <a href='/valid' id='test'>Validez ces propositions?</a>
+            <a href='/login' id='test'>Pas encore inscrit?</a>
+        </form>
     </div>
 </div>
-<br><br><br>
-<form>
-    <a href='/valid' id='test'>Validez ces propositions?</a>
-    <a href='/login' id='test'>Pas encore inscrit?</a>
-</form>
 
 {% endblock %}
