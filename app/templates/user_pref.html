@@ -4,11 +4,12 @@
 <h3>
     {{message}}
 </h3>
-<form id="1" method="POST" onchange="this.submit()">
+
+<form action ="" id="1" method="POST" onchange="this.submit();">
    <!--
     <input type="radio" value="v0" class="face" name="face" src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200" alt="choix_0">
     <input type="image" value="v1" class="face" name="face" src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200" alt="choix_1">
-     -->
+    -->
     <input type="radio" name="face" value="choix0" id="choix0"><label for="choix0" checked="true">
         <img src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200">
     </label>

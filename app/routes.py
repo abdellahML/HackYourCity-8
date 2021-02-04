@@ -12,7 +12,7 @@ def index():
     message = "Hello !"
     return render_template('index.html', message=message)
 
-@app.route('/user_pref/', methods=['GET', 'POST'])
+@app.route('/user_pref/', methods=['GET','POST'])
 def user_pref():
     '''
     Recup le premier choix de l'user, 
@@ -30,7 +30,7 @@ def user_pref():
     return render_template('user_pref.html', message=message)
     
 
-@app.route('/user_pref/<what>', methods=['GET', 'POST'])
+@app.route('/user_pref/<what>', methods=['GET','POST'])
 def user_pref_to_do(what):
     '''
     Recup le deuxième choix de l'user, 
@@ -38,7 +38,9 @@ def user_pref_to_do(what):
     '''
     if request.method == 'POST':
         print('Dans deuxième choix')
+        print(len(list(request.form.items())))
         for keys, val in request.form.items():
+            print(keys,val)
             #what = {keys:val}
             location = val
             print(f"location = {location}")
@@ -55,7 +57,7 @@ def user_pref_location(what,location):
 
     message = "Animation?"
 
-    return render_template('user_pref_animation.html', message=message)
+    return render_template('user_pref_location.html', message=message,what=what,location=location)
 
 
 
