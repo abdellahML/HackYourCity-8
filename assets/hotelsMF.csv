@@ -1,0 +1,15 @@
+,societe,rue,numero,cp,localite,telephone,telephone_autre,fax,gsm,website,email,longitude,latitude,centreville,midi,pmr,slug,fonction,civilite,nom,prenom,contact_rue,contact_num,contact_cp,contact_localite,contact_telephone,contact_telephone_autre,contact_fax,contact_gsm,comment1,comment2
+0,Château d'Hassonville,route d'Hassonville,105,6900,Aye,+32(0)84 31 10 25,,,+32(0)84 31 60 27,http://www.hassonville.be,info@hassonville.be,5.303333,50.210278,0,0,0,chateau-d-hassonville-1,,M.,Rodrigues,Alexandre,route d'Hassonville,105,6900.0,Aye,+32(0)84 31 10 25,,,+32(0)84 31 60 27,Arrangements site web,
+1,Hôtel Alfa,avenue de la Toison d'Or,11-13,6900,Marche-en-Famenne,+32(0)84 31 17 93,,,,http://www.hotelalfa.be,info@hotelalfa.be,5.3456318378448,50.225602087167,0,0,0,hotel-alfa,,M. et Mme,Van Der Veen et Fossion  Associés,Gérald et Angèle,avenue de la Toison d'Or,11-13,6900.0,Marche-en-Famenne,+32(0)84 31 17 93,,,,"L'hôtel vous accueille dans des chambres spacieuses, sobres et confortables.",
+2,LA GLORIETTE,Rue de Bastogne,18,6900,Hollogne,084 37 98 22,,084 37 98 22,,http://www.lagloriette.net,info@lagloriette.net,5.3484979,50.2192646,0,1,1,la-gloriette,,Monsieur,BAUCHE,Olivier,,,,,,,,,"Cuisine gastronomique
+36 places, terrasse (32 places), parking privé, accès wifi
+Menu 3 services à partir de 25,00 euros. Menu gastronomique de 35,00 euros à 60 euros
+Accueil groupes.
+Membre des Jeunes Restaurateurs d’Europe (www.jre.be)
+Service traiteur, service à domicile et plats à emporter.
+Ouvert de 12h à 14h et de 19h à 21h. Fermé le dimanche soir, lundi et le mercredi soir (sauf férié). Fermeture annuelle les 2ème et 3ème semaines de septembre et 1 semaine en janvier.","Hôtel 3 étoiles - 6 chambres
+Local vélo à disposition. 
+Réservation directement sur notre site: https://reservations.cubilis.eu/la-gloriette-marche-en-famenne?Language=fr-FR"
+3,Hôtel Le Manoir,rue du Manoir,2,6900,Marche-en-Famenne,+32(0)84 46 61 17,,,+32(0)84 45 55 14,http://www.le-manoir.be,jurgen.schreurs@hotmail.com,5.3426438570023,50.227290588516,1,0,0,hotel-le-manoir,,M.,Schreurs,,rue du Manoir,2,6900.0,Marche-en-Famenne,+32(0)84 46 61 17,,,+32(0)84 45 55 14,"Le Manoir, immeuble prestigieux et classé datant de 1616, vous fera sentir le charme du passé tout en profitant d'un grand confort hôtelier.
+6 chambres confortables, restaurant de 80 places, lounge bar, wifi, jardin et parking privé.",
+4,Hôtel Quartier Latin,rue des Brasseurs,2,6900,Marche-en-Famenne,+32(0)84 32 17 12,,,+32(0)84 32 17 13,http://www.quartier-latin.be,contact@quartier-latin.be,5.3456050157547,50.227534249425,0,0,0,hotel-quartier-latin,,M. et Mme,Houyoux,Caroline,rue des Brasseurs,2,6900.0,Marche-en-Famenne,+32(0)84 32 17 12,,,+32(0)84 32 17 13,"La réception de l'Hôtel est ouverte 24h/24, 7 jours/7.",
