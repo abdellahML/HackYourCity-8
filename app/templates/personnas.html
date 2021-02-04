@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h3>
+    {{message}}
+</h3>
+
+<form action ="" id="1" method="POST" onchange="this.submit();">
+   <!--
+    <input type="radio" value="v0" class="face" name="face" src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200" alt="choix_0">
+    <input type="image" value="v1" class="face" name="face" src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200" alt="choix_1">
+    -->
+    <input type="radio" name="seul" value="seul" id="seul"><label for="seul" checked="true">
+        <img src="{{ url_for('static', filename='image/seul.jpg') }}" width="250" height="200">
+    </label>
+    <input type="radio" name="couple" value="couple" id="couple"><label for="couple" checked="true">
+        <img src="{{ url_for('static',  filename='image/couple.jpg') }}" width="250" height="200">
+    </label>
+    <input type="radio" name="famille" value="famille" id="famille"><label for="famille" checked="true">
+        <img src="{{ url_for('static', filename='image/famille.jpg') }}" width="250" height="200">
+    </label>
+    <input type="radio" name="amis" value="amis" id="amis"><label for="musee" checked="true">
+        <img src="{{ url_for('static',  filename='image/amis.jpg') }}" width="250" height="200">
+    </label>
+    <input type="radio" name="touriste" value="touriste" id="touriste"><label for="touriste" checked="true">
+        <img src="{{ url_for('static',  filename='image/touriste.jpg') }}" width="250" height="200">
+    </label>
+</form>
+
+{% endblock %}

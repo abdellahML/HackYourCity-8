@@ -13,11 +13,28 @@ def index():
     message = "Hello !"
     return render_template('index.html', message=message)
 
-@app.route('/user_pref/', methods=['GET','POST'])
-def user_pref():
+@app.route('/personnas/',methods=["GET","POST"])
+def personnas():
     '''
-    Recup le premier choix de l'user, 
-    redirige vers /user_pref/<what>
+    Return the user first choice 
+    redirect to /user_pref/<what>
+    '''
+    if request.method == 'POST':
+        print('Dans premier choix')
+        for keys, val in request.form.items():
+            #what = {keys:val}
+            who = val
+            print(f"What = {who}")
+            return redirect(url_for("user_pref",who = who))
+
+    message = "Dîtes nous-en un peu plus..."  
+    return render_template('personnas.html', message=message)
+
+@app.route('/personnas/<who>', methods=['GET','POST'])
+def user_pref(who):
+    '''
+    Return the user second choice 
+    redirect vers /user_pref/<who>/<what>
     '''
     if request.method == 'POST':
         print('Dans premier choix')
@@ -25,17 +42,17 @@ def user_pref():
             #what = {keys:val}
             what = val
             print(f"What = {what}")
-            return redirect(url_for("user_pref_to_do",what = what))
+            return redirect(url_for("user_pref_to_do",who=who,what = what))
 
-    message = "Quoi?"  
+    message = "D'humeur sportive ou plutôt chill?"  
     return render_template('user_pref.html', message=message)
     
 
-@app.route('/user_pref/<what>', methods=['GET','POST'])
-def user_pref_to_do(what):
+@app.route('/personnas/<who>/<what>', methods=['GET','POST'])
+def user_pref_to_do(who,what):
     '''
-    Recup le deuxième choix de l'user, 
-    redirige vers /user_pref/<what>/<location>
+    Return the user third choice 
+    redirect vers /user_pref/<who>/<what>/<location>
     '''
     if request.method == 'POST':
         print('Dans deuxième choix')
@@ -45,21 +62,21 @@ def user_pref_to_do(what):
             #what = {keys:val}
             location = val
             print(f"location = {location}")
-            return redirect(url_for("user_pref_location",what = what, location=location))
+            return redirect(url_for("user_pref_location",who=who,what = what, location=location))
 
     print(f"In user_pref {what}")
-    message = "Où?"
+    message = "En intérieur ou en extérieur?"
     
-    return render_template('user_pref_to_do.html', message=message, what=what)
+    return render_template('user_pref_to_do.html', message=message)
 
-@app.route('/user_pref/<what>/<location>', methods=['GET', 'POST'])
-def user_pref_location(what,location):
+@app.route('/personnas/<who>/<what>/<location>', methods=['GET', 'POST'])
+def user_pref_location(who,what,location):
     '''
     Recup le deuxième choix de l'user, 
     redirige vers /user_pref/<what>/<location>
     '''
 
-    message = "Animation?"
+    message = "Plutôt solo ou plutôt bain de foule?"
 
     if request.method == 'POST':
         print('Dans troisième choix')
@@ -70,9 +87,9 @@ def user_pref_location(what,location):
             animation = val
             print(f"animation = {animation}")
             user = User(id_=random.randint(0,2500),what=what,location=location,animation=animation)
-            return redirect(url_for("resultat",what = what, location=location, animation=animation,user=user))
+            return redirect(url_for("resultat",who=who,what = what, location=location, animation=animation,user=user))
 
-    return render_template('user_pref_location.html', message=message,what=what,location=location)
+    return render_template('user_pref_location.html',message=message)
 
 
 @app.route('/user_pref/<what>/<location>/<animation>/<user>', methods=['GET', 'POST'])
