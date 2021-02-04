@@ -23,14 +23,10 @@ class dataCollecting:
                     df.drop("Unnamed: 0", inplace=True,axis=1)
                     propositions = []
                     for i in range(3):
-<<<<<<< HEAD
-                        propositions.append(df.iloc[random.randint(0,len(df)),[1,3,6,9,11,14,17]].values)
-=======
                         try:
                             propositions.append(df.iloc[random.randint(0,len(df)),[1,3,6,9,11,14,17]].values)
                         except:
                             propositions.append(df.iloc[0, [1,3]].values)
->>>>>>> 75f4f20d60703bb087553149caff354d7f78a2ac
                     return propositions
 
                 elif animation == "solo":
