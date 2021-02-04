@@ -1,75 +1,15 @@
-,societe,rue,numero,cp,localite,telephone,telephone_autre,fax,gsm,website,email,longitude,latitude,centreville,midi,pmr,slug,fonction,civilite,nom,prenom,contact_rue,contact_num,contact_cp,contact_localite,contact_telephone,contact_telephone_autre,contact_fax,contact_gsm,comment1,comment2
-0,LES 4 SAISONS,Rue de Bastogne,108,6900,Hollogne,084 32 18 10,,084 32 18 81,0473 78 31 02,www.les4saisons.be,info@les4saisons.be,5.365817,50.2117287,0,0,1,les-4-saisons,,,Matgen,Sarah,,,,,,,,0473 78 31 02,"Cuisine gastronomique française et méditerranéenne
-40 places, terrasse chauffée (20 places), parking privé, accès Wifi.
-Menu 3 services à partir de 35,00 euros. Menu gastronomique à partir de 45,00 euros. Lunch 3 services à partir de 30,00 euros le midi.
-Accueil groupes.
-Service traiteur et plats à emporter.",
-1,LA BELLA NOTTE,rue de Baschamps,19 A,6900,Aye,084 32 25 53,,,,http://www.bellanotte.be,michel.delhez@hotmail.fr,5.3035609,50.2349045,0,0,0,la-bella-notte,,,,,,,,,,,,,"Cuisine italienne
-40 places, terrasse (28 places), parking privé, plaine de jeux.
-Menu enfant.
-Accueil groupes.
-Service traiteur et plats à emporter.","Ouvert du mercredi au dimanche de 12 h à 14h30 et de 18h à 1h.
-Fermé lundi et mardi (sauf jours fériés)."
-2,LA BONNE PORTE,Rue Porte Haute,4,6900,Marche-en-Famenne,084 31 52 04,,084 31 52 04,0479 29 60 06,http://www.labonneporte.be,labonneporte@gmail.com,5.3451657,50.2265073,1,0,1,la-bonne-porte,,Monsieur et Madame,DEMEUSE-LAMQUET,A.,,,,,,,083 68 81 34,,"Mariages, Communions, etc","Ouvert le lundi de 7h à 14h30, du mardi au vendredi de 7h à 18h."
-3,LE NONNA,Place aux Foires,22,6900,Marche-en-Famenne,084 40 11 32,,,0473 53 31 49,http://www.lenonna.be,pauline.lizen@gmail.com,5.345020182209055,50.22574205205429,1,1,0,le-nonna,,Madame,LIZEN,Pauline,,,,,,,,,"Spécialités italiennes : paninis, épicerie, cantine, plats à emporter.
-
-
-Épicerie
-Des bons produits mais des produits simples, voilà en quelques mots comment se définit la cuisine italienne.
-
-Pour trouver un produit typique,
-pas besoin de faire la route jusqu'à Bologne, le NONNA s’en occupe. 
-Le NONNA a cherché pour vous des produits authentiques et 100% vert, blanc, rouge. De l’huile d’olive au vin rouge en passant par les pâtes et les fromages.","A partir de janvier, plats à emporter.
-Plateaux apéritif à emporter (sur commande).
-
-Tarif étudiants : 5 € (1 panini + 1 boisson).
-15 places assises.
-
-Ouvert de 11h30 à 18h30"
-4,TRAITEUR DE LA WAMME,Rue de la Commanderie,6,6900,Hargimont,,,084 22 29 99,0498 24 75 18,,traiteurdelawamme@gmail.com,5.3043466,50.1850245,0,0,0,traiteur-de-la-wamme,,Monsieur,CHARPENTIER,Pierrot,,,,,,,,,"Mariages, communins, anniversaires, fêtes....
-
-Produits artisanaux et locaux.",
-5,COULEURS ET SAVEURS,Rue Grande,86 A bte 5,6900,Aye,084 36 87 60,,,0475 53 67 12,,,5.297958510589638,50.22339242917009,0,0,0,couleurs-et-saveurs,,,,,,,,,,,,,Traiteur,
-6,FUTARI,Rue Notre-Dame de Grâces,3,6900,Marche-en-Famenne,084 86 04 82,,,0485 87 69 88,,sushiyanmarcheenfamenne@hotmail.com,5.343375942327839,50.23005342661693,1,1,0,futari,,Mme,Bai,Jinyan,,,,,,,,0485 87 69 88,"Traiteur coréen et japonais
-A emporter",
-7,L'ENKA TOQUE,Rue des Savoyards,8A,6900,Marche-en-Famenne,084 21 10 91,,,,http://www.lenkatoque.be,contact@lenkatoque.be,5.3449599,50.2271122,1,0,1,l-enka-toque,,Mesdames,LEKANE,Adèle et Claire,,,,,,,,,Petite restauration - salades composées.,
-8,MAXI-PARTY,Rue Saint-Isidore,18,6900,Marloie,,,,0475 75 17 74,http://www.maxi-party.be,,5.3088857,50.2030253,0,0,0,maxi-party,,Monsieur,BAIJOT,Jean-Marie,,,,,,,,,"Maxi-Party organise vos festivités et anime vos marchés
-
-Nous vous proposons:
-    * Paëlla
-    * Couscous
-    * Tartiflette
-    *  Etc.
-
-Que ce soit un événement organisé pour 50 ou pour 1000 personnes, nous sommes les spécialistes!",Nous sommes également présents sur le marché de    Marche-en-Famenne: le 1er et 3ème lundi du mois.
-9,ROTISSERIE FAMENNOISE,Rue Saint-Isidore,18,6900,Marloie,084 45 68 35,,,0472 41 08 89,http://www.rotisseriebaijot.be,info@rotisseriefamennoise.be,5.3088857,50.2030253,0,0,0,rotisserie-famennoise,,Monsieur,BAIJOT,Jerôme,,,,,,,,,"Présent sur le marché à Marche-en-Famenne, le 1er et 3ème lundi du mois.
-
-Présent à MARLOIE (Point du jour), le mercredi et vendredi après-midi.",
-10,L'INEVITABLE,Rue Neuve,9,6900,Marche-en-Famenne,084 40 02 84,,,,http://www.linevitable.be,info@linevitable.be,5.3445786,50.2248983,1,0,0,l-inevitable,,Messieurs,DE SIMONE et CINQUINA,,,,,,,,,,"Cuisine italienne.
-Carte changée toutes les 8 semaines.  Service traiteur et plats à emporter.
-
-Espace fumeur couvert, air conditionné, accès Wifi, animaux admis.","Ouvert du mardi au vendredi : 12h à 14h  et 18h30 à 21h
-le samedi : 18h30 à 21h30
-le dimanche : 12h à14h
-( fermé samedi midi, dimanche soir et le lundi)"
-11,MANDABAR,Place aux Foires,18,6900,Marche-en-Famenne,084 44 59 00,,084 40 13 81,,http://www.mandabar.be,info@mandabar.be,5.345081766767961,50.2255300156568,1,1,1,mandabar,,Monsieur,GUISSARD,Raphaël,,,,,,,,0478 34 69 42,"Grande carte de burgers et pates  
-Cuisine traditionnelle
-Plat du jour à 9€ ( la semaine a midi )
-Ambassadeur Orval
-Blind test tous les 1er lundis de chaque mois
-Animation musicale les vendredis, samedis et veilles des jours fériés
-
- 
-Terrasses avant : 30 places
-Terrasse arrières : 50 places
-Pas de parking privé",
-12,TRAITEUR HYENNE - MARCHAND,Rue du Meunier,6,6900,Grimbiemont,,,,0475 84 48 28,,rubens001@yahoo.com,5.425831,50.2076584,0,0,0,traiteur-hyenne-marchand,,Monsieur,HYENNE,Frédéric,,,,,,,,,Spécialité : cochon de lait à la broche,
-13,LA GLORIETTE,Rue de Bastogne,18,6900,Hollogne,084 37 98 22,,084 37 98 22,,http://www.lagloriette.net,info@lagloriette.net,5.3484979,50.2192646,0,1,1,la-gloriette,,Monsieur,BAUCHE,Olivier,,,,,,,,,"Cuisine gastronomique
-36 places, terrasse (32 places), parking privé, accès wifi
-Menu 3 services à partir de 25,00 euros. Menu gastronomique de 35,00 euros à 60 euros
-Accueil groupes.
-Membre des Jeunes Restaurateurs d’Europe (www.jre.be)
-Service traiteur, service à domicile et plats à emporter.
-Ouvert de 12h à 14h et de 19h à 21h. Fermé le dimanche soir, lundi et le mercredi soir (sauf férié). Fermeture annuelle les 2ème et 3ème semaines de septembre et 1 semaine en janvier.","Hôtel 3 étoiles - 6 chambres
-Local vélo à disposition. 
-Réservation directement sur notre site: https://reservations.cubilis.eu/la-gloriette-marche-en-famenne?Language=fr-FR"
+,societe,rue,numero,cp,localite,telephone,gsm,website,email,longitude,latitude,lun_mat_ouv,lun_mat_ferm,lun_soir_ouv,lun_soir_ferm,mar_mat_ouv,mar_soir_ferm,mer_mat_ouv,mer_mat_ferm,mer_soir_ouv,mer_soir_ferm,jeu_mat_ouv,jeu_mat_ferm,ven_mat_ouv,ven_mat_ferm,ven_soir_ouv,ven_soir_ferm,sam_mat_ouv,sam_mat_ferm,sam_soir_ouv,sam_soir_ferm,dim_mat_ouv,dim_mat_ferm,dim_soir_ferm
+0,LES 4 SAISONS,Rue de Bastogne,108,6900,Hollogne,084 32 18 10,0473 78 31 02,www.les4saisons.be,info@les4saisons.be,5.365817,50.2117287,10.0,15.0,18.0,23.0,17.3,23.3,10.0,14.3,18.5,22.3,17.0,23.0,ferme,14.0,19.0,24.0,10.0,15.0,19.0,24.0,ferme,15.0,ferme
+1,LA BELLA NOTTE,rue de Baschamps,19 A,6900,Aye,084 32 25 53,,http://www.bellanotte.be,michel.delhez@hotmail.fr,5.3035609,50.2349045,10.0,15.0,18.0,23.0,17.3,23.3,10.0,14.3,18.5,22.3,17.0,23.0,ferme,14.0,19.0,24.0,10.0,15.0,19.0,24.0,ferme,15.0,ferme
+2,LA BONNE PORTE,Rue Porte Haute,4,6900,Marche-en-Famenne,084 31 52 04,0479 29 60 06,http://www.labonneporte.be,labonneporte@gmail.com,5.3451657,50.2265073,10.0,15.0,18.0,23.0,17.3,23.3,10.0,14.3,18.5,22.3,17.0,23.0,ferme,14.0,19.0,24.0,10.0,15.0,19.0,24.0,ferme,15.0,ferme
+3,LE NONNA,Place aux Foires,22,6900,Marche-en-Famenne,084 40 11 32,0473 53 31 49,http://www.lenonna.be,pauline.lizen@gmail.com,5.345020182209055,50.22574205205429,10.0,15.0,18.0,23.0,17.3,23.3,10.0,14.3,18.5,22.3,17.0,23.0,ferme,14.0,19.0,24.0,10.0,15.0,19.0,24.0,ferme,15.0,ferme
+4,TRAITEUR DE LA WAMME,Rue de la Commanderie,6,6900,Hargimont,,0498 24 75 18,,traiteurdelawamme@gmail.com,5.3043466,50.1850245,10.0,15.0,18.0,23.0,17.3,23.3,10.0,14.3,18.5,22.3,17.0,23.0,ferme,14.0,19.0,24.0,10.0,15.0,19.0,24.0,ferme,15.0,ferme
+5,COULEURS ET SAVEURS,Rue Grande,86 A bte 5,6900,Aye,084 36 87 60,0475 53 67 12,,,5.297958510589638,50.22339242917009,10.0,15.0,18.0,23.0,17.3,23.3,10.0,14.3,18.5,22.3,17.0,23.0,ferme,14.0,19.0,24.0,10.0,15.0,19.0,24.0,ferme,15.0,ferme
+6,FUTARI,Rue Notre-Dame de Grâces,3,6900,Marche-en-Famenne,084 86 04 82,0485 87 69 88,,sushiyanmarcheenfamenne@hotmail.com,5.343375942327839,50.23005342661693,10.0,15.0,18.0,23.0,17.3,23.3,10.0,14.3,18.5,22.3,17.0,23.0,ferme,14.0,19.0,24.0,10.0,15.0,19.0,24.0,ferme,15.0,ferme
+7,L'ENKA TOQUE,Rue des Savoyards,8A,6900,Marche-en-Famenne,084 21 10 91,,http://www.lenkatoque.be,contact@lenkatoque.be,5.3449599,50.2271122,10.0,15.0,18.0,23.0,17.3,23.3,10.0,14.3,18.5,22.3,17.0,23.0,ferme,14.0,19.0,24.0,10.0,15.0,19.0,24.0,ferme,15.0,ferme
+8,MAXI-PARTY,Rue Saint-Isidore,18,6900,Marloie,,0475 75 17 74,http://www.maxi-party.be,,5.3088857,50.2030253,10.0,15.0,18.0,23.0,17.3,23.3,10.0,14.3,18.5,22.3,17.0,23.0,ferme,14.0,19.0,24.0,10.0,15.0,19.0,24.0,ferme,15.0,ferme
+9,ROTISSERIE FAMENNOISE,Rue Saint-Isidore,18,6900,Marloie,084 45 68 35,0472 41 08 89,http://www.rotisseriebaijot.be,info@rotisseriefamennoise.be,5.3088857,50.2030253,10.0,15.0,18.0,23.0,17.3,23.3,10.0,14.3,18.5,22.3,17.0,23.0,ferme,14.0,19.0,24.0,10.0,15.0,19.0,24.0,ferme,15.0,ferme
+10,L'INEVITABLE,Rue Neuve,9,6900,Marche-en-Famenne,084 40 02 84,,http://www.linevitable.be,info@linevitable.be,5.3445786,50.2248983,10.0,15.0,18.0,23.0,17.3,23.3,10.0,14.3,18.5,22.3,17.0,23.0,ferme,14.0,19.0,24.0,10.0,15.0,19.0,24.0,ferme,15.0,ferme
+11,MANDABAR,Place aux Foires,18,6900,Marche-en-Famenne,084 44 59 00,,http://www.mandabar.be,info@mandabar.be,5.345081766767961,50.2255300156568,10.0,15.0,18.0,23.0,17.3,23.3,10.0,14.3,18.5,22.3,17.0,23.0,ferme,14.0,19.0,24.0,10.0,15.0,19.0,24.0,ferme,15.0,ferme
+12,TRAITEUR HYENNE - MARCHAND,Rue du Meunier,6,6900,Grimbiemont,,0475 84 48 28,,rubens001@yahoo.com,5.425831,50.2076584,10.0,15.0,18.0,23.0,17.3,23.3,10.0,14.3,18.5,22.3,17.0,23.0,ferme,14.0,19.0,24.0,10.0,15.0,19.0,24.0,ferme,15.0,ferme
+13,LA GLORIETTE,Rue de Bastogne,18,6900,Hollogne,084 37 98 22,,http://www.lagloriette.net,info@lagloriette.net,5.3484979,50.2192646,10.0,15.0,18.0,23.0,17.3,23.3,10.0,14.3,18.5,22.3,17.0,23.0,ferme,14.0,19.0,24.0,10.0,15.0,19.0,24.0,ferme,15.0,ferme
