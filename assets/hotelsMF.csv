@@ -1,0 +1,6 @@
+,societe,rue,numero,cp,localite,telephone,gsm,website,email,longitude,latitude
+0,Château d'Hassonville,route d'Hassonville,105,6900,Aye,+32(0)84 31 10 25,+32(0)84 31 60 27,http://www.hassonville.be,info@hassonville.be,5.303333,50.210278
+1,Hôtel Alfa,avenue de la Toison d'Or,11-13,6900,Marche-en-Famenne,+32(0)84 31 17 93,,http://www.hotelalfa.be,info@hotelalfa.be,5.3456318378448,50.225602087167
+2,LA GLORIETTE,Rue de Bastogne,18,6900,Hollogne,084 37 98 22,,http://www.lagloriette.net,info@lagloriette.net,5.3484979,50.2192646
+3,Hôtel Le Manoir,rue du Manoir,2,6900,Marche-en-Famenne,+32(0)84 46 61 17,+32(0)84 45 55 14,http://www.le-manoir.be,jurgen.schreurs@hotmail.com,5.3426438570023,50.227290588516
+4,Hôtel Quartier Latin,rue des Brasseurs,2,6900,Marche-en-Famenne,+32(0)84 32 17 12,+32(0)84 32 17 13,http://www.quartier-latin.be,contact@quartier-latin.be,5.3456050157547,50.227534249425
