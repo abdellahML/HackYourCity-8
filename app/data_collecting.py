@@ -22,7 +22,7 @@ class dataCollecting:
                     df = pd.read_csv("assets/festivMF.csv")
                     df.drop("Unnamed: 0", inplace=True,axis=1)
                     propositions = []
-                    for i in range(5):
+                    for i in range(3):
                         propositions.append(df.iloc[random.randint(0,len(df)),[1,3,6,9,11,14,17]].values)
                     return propositions
 
