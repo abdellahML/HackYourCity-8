@@ -5,8 +5,17 @@
     {{message}}
     {{test}}
 </h3>
-<form>
-    <a href='/user_pref/location/animation' id='test'>Test</a>
-</form>
+<form method="POST" onchange="this.submit()">
+    <!--
+     <input type="radio" value="v0" class="face" name="face" src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200" alt="choix_0">
+     <input type="image" value="v1" class="face" name="face" src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200" alt="choix_1">
+      -->
+     <input type="radio" name="face" value="location0" id="choix0_loc"><label for="choix0" checked="true">
+         <img src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200">
+     </label>
+     <input type="radio" name="planet" value="location1" id="choix1_loc"><label for="choix1" checked="true">
+         <img src="{{ url_for('static',  filename='image/planet.png') }}" width="200" height="200">
+     </label>
+ </form>
 
 {% endblock %}

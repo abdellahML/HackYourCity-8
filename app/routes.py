@@ -7,46 +7,50 @@ import random, os
 
 
 @app.route('/')
-#@app.route('/home')
+@app.route('/home')
 def index():
-    '''Here we configure the url path, and with we return a html, it's the same with other functions'''
-
     message = "Hello !"
-
     return render_template('index.html', message=message)
 
-@app.route('/user_pref', methods=['GET', 'POST'])
+@app.route('/user_pref/', methods=['GET', 'POST'])
 def user_pref():
-    '''Here we configure the url path, and with we return a html, it's the same with other functions'''
-    
-    message = "Quoi?"
-    test = ""
-
+    '''
+    Recup le premier choix de l'user, 
+    redirige vers /user_pref/<what>
+    '''
     if request.method == 'POST':
-        
-        print('test')
+        print('Dans premier choix')
         for keys, val in request.form.items():
-        
-            print(keys)
-            print(val)
-            test = val
-            return redirect(url_for('user_pref/location{test}'))
-        print('test2')
-        
+            #what = {keys:val}
+            what = val
+            print(f"What = {what}")
+            return redirect(url_for("user_pref_to_do",what = what))
+
+    message = "Quoi?"  
     return render_template('user_pref.html', message=message)
     
 
-@app.route('/user_pref/location<location>', methods=['GET', 'POST'])
-def user_pref_location():
-    '''Here we configure the url path, and with we return a html, it's the same with other functions'''
+@app.route('/user_pref/<what>', methods=['GET', 'POST'])
+def user_pref_to_do(what):
+    '''
+    Recup le deuxième choix de l'user, 
+    redirige vers /user_pref/<what>/<location>
+    '''
+    if request.method == 'POST':
+        print('Dans deuxième choix')
+        for keys, val in request.form.items():
+            #what = {keys:val}
+            location = val
+            print(f"location = {location}")
+            return redirect(url_for("user_pref_location",what = what,location=location))
 
-    print(location)
+    print(f"In user_pref {what}")
     message = "Où?"
     
-    return render_template('user_pref_location.html', message=message, methods=['GET', 'POST'])
+    return render_template('user_pref_to_do.html', message=message, what=what)
 
-@app.route('/user_pref/location/animation', methods=['GET', 'POST'])
-def user_pref_animation():
+@app.route('/user_pref/<what>/<location>', methods=['GET', 'POST'])
+def user_pref_location(what,location):
     '''Here we configure the url path, and with we return a html, it's the same with other functions'''
 
     message = "Animation?"
