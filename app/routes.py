@@ -1,11 +1,11 @@
 from flask import Flask, render_template, flash, url_for, redirect, request
 from flask import current_app as app
-from app.form import LoginForm,RegistrationForm
-from app.user import User
-
 from datetime import datetime
 import random, os
 
+from app.form import LoginForm,RegistrationForm
+from app.user import User
+from app.data_collecting import dataCollecting
 
 @app.route('/')
 @app.route('/home')
@@ -87,6 +87,7 @@ def user_pref_location(who,what,location):
             animation = val
             print(f"animation = {animation}")
             user = User(id_=random.randint(0,2500),what=what,location=location,animation=animation)
+            user.saveUser()
             return redirect(url_for("resultat",who=who,what = what, location=location, animation=animation,user=user))
 
     return render_template('user_pref_location.html',message=message)
@@ -100,8 +101,8 @@ def resultat(what,location, animation,user):
     '''
 
     message = "Voyons voir ce qu'on pourrait vous proposer..."
-    
-    return render_template('resultat.html', message=message,what=what,location=location, animation=animation,user=user)
+    propositions = dataCollecting.return_activities_places(dataCollecting,what=what,location=location,animation=animation)
+    return render_template('resultat.html', message=message,what=what,location=location, animation=animation,user=user,propositions=propositions)
 
 
 
@@ -118,7 +119,6 @@ def login():
     return render_template('login.html', form=form)
 
 
-##
 @app.route('/valid')
 def valid():
     "Renvoie sur la page de validation avec possible map"

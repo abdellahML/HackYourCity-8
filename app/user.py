@@ -35,11 +35,5 @@ class User:
         
 
 
-user = User(id_=14)
-print(user.saveUser())
 
-df = pd.read_csv("test.csv")
-df.drop("Unnamed: 0",axis=1,inplace=True)
-print(df)
-        
         

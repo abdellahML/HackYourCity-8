@@ -10,11 +10,21 @@
     {{location}}
     {{animation}}
 -->
-    {{user}}
 
 <div>
     <div class="result">
-
+        <ul>
+        {% for propo in propositions %}
+            <p>------</p>
+            <li><strong>Event</strong></p>: {{propo[0]}}<br></li>
+            <li><strong> Date</strong> {{propo[1]}}<br></li>
+            <li><strong>Adresse:</strong> {{propo[2]}}<br></li>
+            <li><strong>Ville :</strong> {{propo[3]}}<br></li>
+            <li><strong>Plus d'infos :</strong>{{propo[4]}}<br></li>
+            <li><strong>Horaire et Tarifs :</strong>{{propo[5]}}<br></li>
+            <li><strong>Site :</strong>{{propo[6]}}<br></li>
+        {% endfor %}
+        </ul>
     </div>
     <div class="result">
 
@@ -23,7 +33,7 @@
 
     </div>
 </div>
-
+<br><br><br>
 <form>
     <a href='/valid' id='test'>Validez ces propositions?</a>
     <a href='/login' id='test'>Pas encore inscrit?</a>

@@ -4,7 +4,7 @@ import numpy as np
 
 class dataCollecting:
 
-    def return_activities_places(self, what, location, animation, city):
+    def return_activities_places(self, what, location, animation, city="default_value"):
 
         if what == "sport":
             if location == "interior":
@@ -20,25 +20,31 @@ class dataCollecting:
                 if animation == "foule":
 
                     df = pd.read_csv("assets/festivMF.csv")
-                
+                    df.drop("Unnamed: 0", inplace=True,axis=1)
+                    propositions = []
+                    for i in range(5):
+                        propositions.append(df.iloc[random.randint(0,len(df)),[1,3,6,9,11,14,17]].values)
+                    return propositions
+
                 elif animation == "solo":
 
-                    files["Data/hannut_centre_equestre.csv", '"Data/marche_pt_vert.csv"']
-                    i = random.randint(len(files))
+                    files=["Data/hannut_centre_equestre.csv", '"Data/marche_pt_vert.csv"']
+                    i = random.randint(0,len(files))
                     df = pd.read_csv(files[i])
+                    
         
         elif what == "musee":
             if location == "interior":
                 if animation == "foule":
 
-                    files['assets/brasserieMF.csv', 'assets/cinemaMF.csv']
-                    i = random.randint(len(files))
+                    files=['assets/brasserieMF.csv', 'assets/cinemaMF.csv']
+                    i = random.randint(0,len(files))
                     df = pd.read_csv(files[i])
                 
                 elif animation == "solo":
 
-                    files['assets/museesMF.csv', 'Data/hannut_femme_detente.csv']
-                    i = random.randint(len(files))
+                    files=['assets/museesMF.csv', 'Data/hannut_femme_detente.csv']
+                    i = random.randint(0,len(files))
                     df = pd.read_csv(files[i])
             
             elif location =="exterior":
@@ -60,7 +66,7 @@ class dataCollecting:
 
     def choose_a_place(self, df, persona):
         """This function will choose place according to criteria, but since for now we didn't have enough response
-        we make a mock to be able to finish our project. This function will give point according to the persona
+        we make a mock to be able to finish our project. This function will give points according to the personna
         and will put in descending order"""
 
         score = np.array([[5, 0, 3, 3, 3], 
