@@ -3,7 +3,7 @@ import random
 
 class dataCollecting:
 
-    def return_activities_places(self, what, location, animation):
+    def return_activities_places(self, what, location, animation, city):
 
         if what == "sport":
             if location == "interior":
@@ -36,3 +36,6 @@ class dataCollecting:
                 
                 elif animation == "solo":
                     df = pd.read_csv('assets/patrimonesMF.csv')
+    
+    def create_list_csv_by_city(self, file_name, city_name):
+        """This function will """
