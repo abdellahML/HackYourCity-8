@@ -85,14 +85,6 @@ def resultat(what,location, animation):
     return render_template('resultat.html', message=message,what=what,location=location, animation=animation)
 
 
-
-
-    
-
-@app.route('/status')   #get
-def status():
-    return render_template('status.html')
-
 @app.route('/login', methods=['GET', 'POST'])    #post and get
 def login():
     '''On this function we have post request so we post the information that we got from the field, and if it's valid
@@ -105,22 +97,3 @@ def login():
         return redirect(url_for('index'))
     return render_template('login.html', form=form)
 
-@app.route('/predict', methods=['GET', 'POST'])    #get
-def predict():
-    '''Here the function will just display month, custumor visiting website, seller available and a prediction between
-    2000 and 5000'''
-
-    mydate = datetime.now()
-    month = mydate.strftime("%B")
-
-    custumors = 100
-
-    sellers = 12
-
-    predict = random.randint(2000, 5000)
-
-    return render_template('predict.html', month=month, custumor_visiting_website= custumors, seller_available=sellers, prediction=predict)
-
-if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port, debug= True)
