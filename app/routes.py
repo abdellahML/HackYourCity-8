@@ -1,6 +1,7 @@
 from flask import Flask, render_template, flash, url_for, redirect, request
 from flask import current_app as app
 from app.form import LoginForm,RegistrationForm
+from app.user import User
 
 from datetime import datetime
 import random, os
@@ -68,21 +69,23 @@ def user_pref_location(what,location):
             #what = {keys:val}
             animation = val
             print(f"animation = {animation}")
-            return redirect(url_for("resultat",what = what, location=location, animation=animation))
+            user = User(id_=random.randint(0,2500),what=what,location=location,animation=animation)
+            return redirect(url_for("resultat",what = what, location=location, animation=animation,user=user))
 
     return render_template('user_pref_location.html', message=message,what=what,location=location)
 
 
-@app.route('/user_pref/<what>/<location>/<animation>/resultat', methods=['GET', 'POST'])
-def resultat(what,location, animation):
+@app.route('/user_pref/<what>/<location>/<animation>/<user>', methods=['GET', 'POST'])
+def resultat(what,location, animation,user):
     '''
     Recup le deuxième choix de l'user, 
     redirige vers /user_pref/<what>/<location>/<animation>
     '''
 
-    message = "Animation?"
+    message = "Voyons voir ce qu'on pourrait vous proposer..."
+    
+    return render_template('resultat.html', message=message,what=what,location=location, animation=animation,user=user)
 
-    return render_template('resultat.html', message=message,what=what,location=location, animation=animation)
 
 
 @app.route('/login', methods=['GET', 'POST'])    #post and get
@@ -97,3 +100,10 @@ def login():
         return redirect(url_for('index'))
     return render_template('login.html', form=form)
 
+
+##
+@app.route('/valid')
+def valid():
+    "Renvoie sur la page de validation avec possible map"
+    #return render_template(folium object > check doc folium)
+    return render_template ("valid.html")
