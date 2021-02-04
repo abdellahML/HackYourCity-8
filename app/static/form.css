@@ -1,0 +1,23 @@
+#message {
+    font-size: 32px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+}
+input[type="radio"] {
+    display: none;
+}
+form#choice {
+
+}
+    form#choice > div {
+        float: left;
+        border: 1px solid rgb(31, 45, 66);
+        padding: 3px 3px 0 3px;
+        margin: 10px 5px;
+        background: rgb(255, 255, 255);
+    }
+    form#choice img {
+        width: 100%;
+        height: auto;
+    }

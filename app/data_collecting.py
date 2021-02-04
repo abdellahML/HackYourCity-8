@@ -22,8 +22,11 @@ class dataCollecting:
                     df = pd.read_csv("assets/festivMF.csv")
                     df.drop("Unnamed: 0", inplace=True,axis=1)
                     propositions = []
-                    for i in range(5):
-                        propositions.append(df.iloc[random.randint(0,len(df)),[1,3,6,9,11,14,17]].values)
+                    for i in range(3):
+                        try:
+                            propositions.append(df.iloc[random.randint(0,len(df)),[1,3,6,9,11,14,17]].values)
+                        except:
+                            propositions.append(df.iloc[0, [1,3]].values)
                     return propositions
 
                 elif animation == "solo":
