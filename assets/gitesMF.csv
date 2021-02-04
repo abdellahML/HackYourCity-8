@@ -1,41 +1,18 @@
-,societe,rue,numero,cp,localite,telephone,telephone_autre,fax,gsm,website,email,longitude,latitude,centreville,midi,pmr,slug,fonction,civilite,nom,prenom,contact_rue,contact_num,contact_cp,contact_localite,contact_telephone,contact_telephone_autre,contact_fax,contact_gsm,comment1,comment2
-0,La Sapinière,rue  la Sapinière,1,6900,Humain,,,,,https://www.sapiniere-humain.com/,maisonlasapiniere@gmail.com,5.2537810277557,50.201703768098,0,0,0,la-sapiniere,,,,,Berkendael,132.0,1050.0,Ixelles,+32(0)475 79 24 24,,,,Nettoyage compris.,
-1,La belle vue,chemin des Bacs,2,6900,Roy,,,,,,,5.4069632291794,50.185554740911,0,0,0,la-belle-vue,,,,,chemin des Bacs,2.0,6900.0,Roy,+32(0)495 54 98 61,,,+32(0)84 34 44 31,Tous les tarifs sont disponibles sur notre site internet: www.nosgitesenardenne.com,
-2,Le Fond des Vaulx,Fond des Vaulx,17A,6900,Marche-en-Famenne,,,,,,,5.3564357757568,50.227843113577,0,0,0,le-fond-des-vaulx-1,,,,,Trou du Renard,9.0,5377.0,Somme Leuze,+32(0)86 32 21 19,+32(0)86 32 28 82,,+32(0)86 32 27 17,"Espace Wellness avec hammam, whirlpool, douche et wc.",
-3,Sous le Frene,Chemin de Matoufosse,11,6900,Roy,,,,,,,5.40942,50.1881,0,0,0,sous-le-frene,,,,,Chemin de Matoufosse,5.0,6900.0,Roy,+32(0)489 60 29 57,,,,,
-4,Au Cri du Paon,rue du Petit Bois,41,6900,Waha,,,,,,,5.3506368398666,50.209417584247,0,0,0,au-cri-du-paon-1,,,,,rue du Petit Bois,39.0,6900.0,Waha,+32(0)498 22 48 50,+32(0)84 31 38 21,,+32(0)84 31 38 21,"Mezzanine. 
-Possibilité d'accueillir des cavaliers avec leurs chevaux (prairie et 2 boxes).",
-5,LES ATELIERS GERNY,Rue du Gerny,26,6900,Humain,,,,0497 15 66 54,http://www.lesateliersgerny.be/,laetitia@lesateliersgerny.be,5.254857769311507,50.20099796502508,0,0,0,les-ateliers-gerny,,Mme,Robillard,Laetitia,,,,,,,,,"- Location d'espaces de création à long ou à court terme, dédié aux artistes plasticiens et artisans.
-
-- Location d'un App'Art où se ressourcer et vivre une expérience culturelle atypique (balades à thèmes et activités créatives à la carte).
-
-- Location d'une salle polyvalent propice à l'organisation de formations ou d'événements culturels.","- Organisation d'expositions, d'évènements festifs et de marchés de créateurs pour diffuser et faire connaître le projet et son réseau.
-
-- Un lieu de formation proposant la transmission d'un savoir-faire ou d'une technique artistique."
-6,La Retirée,rue de la Reine des Prés,2,6900,Grimbiémont,+32(0)475 23 83 51,,,,,francq.martin@gmail.com,5.4268014576721,50.204552789467,0,0,0,la-retiree,,M.,Martin,Francq,rue de la Reine des Prés,2.0,6900.0,Grimbiémont (Marche-en-Famenne),+32(0)475 23 83 51,,,,"Une plongée dans l’univers agricole authentique comblera les petits et les grands.
-Ce gîte familial a été aménagé au sein d’anciennes étables construites au début du 19ème siècle. Un confort de qualité a heureusement pris place là où régnaient en maîtres le foin, la paille et les mugissements du bétail.
-C’est un hébergement de caractère marqué par l’usure du temps et la présence des animaux.
-Niché au centre d’un village consacré à une agriculture très dynamique (la bourgade compte encore de nombreuses fermes), vous vivrez au rythme des  activités saisonnières.
-C’est aussi le point de départ idéal pour la découverte d’une microrégion typique qui s’étire entre Ardenne et Famenne. À mi-chemin entre La Roche et Marche, proche de la vallée de L’Ourthe, de nombreuses  balades souvent balisées vous invitent à la découverte d’un univers pittoresque.",
-7,Ardenne BnB Gîte,rue des armoiries,11,6900,Marche-en-Famenne,,,,,,,5.3452104933929,50.226126324272,0,0,0,ardenne-bnb-gite,,,,,rue des Rossignols,8.0,6900.0,Marche-en-Famenne,+32(0)472 83 12 38,,,,Minimum 2 nuits,
-8,Chez Ines,rue du Progrès,18,6900,Marloie,,,,,,,5.3185522556305,50.205277039551,0,0,0,chez-ines-1,,,,,rue de la Station,27.0,6900.0,Marloie,+32(0)477 24 90 92,+32(0)84 31 36 60,,+32(0)494 51 19 46,Deuxième salon/tv à l'étage.,
-9,La Cabane Panoramique,rue du Gerny,58,6900,Humain,,,,,,,5.2502417564392,50.199333391079,0,0,0,la-cabane-panoramique,,,,,rue du Gerny,58.0,6900.0,Humain,+32(0)475 42 40 34,,,,Tennis privatif à disposition et de très belles promenades à pied ou à vélo.,
-10,A l'orée du bois,chemin des Bacs,2,6900,Roy,+32(0)495 54 98 61,,,+32(0)495 54 98 61,https://www.nosgitesenardenne.com,nosgitesenardenne@gmail.com,5.4069578647614,50.185530696921,0,0,0,a-l-oree-du-bois,,M. et Mme,Spee,Daniel & Sandrine,chemin des Bacs,2.0,6900.0,Roy,+32(0)495 54 98 61,,,+32(0)495 54 98 61,Tous les taris sont disponibles sur notre site internet www.nosgitesenardenne.com,
-11,Ferme aux Moines,rue de Thys,38,6900,Humain,+32(0)497 46 22 20,,,,http://www.monnikshoeve.com,gj@earlgreyestates.com,5.2521073293304,50.204093558919,0,0,0,ferme-aux-moines-1,,M.,Jacobs,Guido,rue de Thys,38.0,6900.0,Humain,+32(0)497 46 22 20,,,,"Au milieu de tout ....  Humain est en plein milieu de cette belle région touristique:
-5 km - ROCHEFORT: avec son château magnifique de Lavaux-Ste-Anne
-7 km - MARCHE-EN-FAMENNE: avec sa vieille ville charmante et des restaurants très fines
-11 km - CHEVETOGNE: Domaine de Chevetogne, Rue de Pirchamps un: avec son parc familial, terrains de jeux, piscine, parc animalier, barbecues ...
-15 km - HAN S/LESSE: avec son parc et ses grottes impressionnantes
-26 km - DURBUY: avec son centre médiéval. La plus petite ville du monde ...
-28 km - LA ROCHE: sa descente de la Lesse ou Ourthe
-31 km - SAINT-HUBERT: avec ses parcs animaliers, son aérodrome, le ""Fourneau St-Michel""
-32 km - REDU: le village du livre et l’artisanat d'art
-34 km - DINANT: avec ses terrains de golf
-49 km - BASTOGNE: avec son musée de la guerre
-60 km - HOUFFALIZE: avec son patrimoine architectural et ses belles promenades",
-12,LE BERC'AYE,Rue des Godis,15,6900,Aye,,,,0468 37 39 67,,lebercaye@hotmail.com,5.2883305,50.2247723,0,0,0,le-bercaye,,,,,,,,,,,,,Appartement 1 chambre,
-13,La Vieille Cinse,chemin de Charneux,5,6900,Roy,,,,,,,5.4019233584404,50.185635459935,0,0,0,la-vieille-cinse,,,,,rue de la Hazette,44.0,6900.0,Roy,+32(0)84 34 41 43,+32(0)84 34 49 29,,+32(0)499 14 01 03,"Poubelles: 8€ par sac non trié.
-Taxes de séjour: 0.6 € par nuit/pers.",
-14,Au Vieux Pommier,chemin de Charneux,9,6900,Roy,+32(0)486 13 42 14,,,+32(0)84 34 40 55,http://giteauvieuxpommier.jimdo.com/,marie-therese.laurent@hotmail.com,5.4011964797974,50.185369258382,0,0,0,au-vieux-pommier-1,,Mme,Laurent,Marie-Thérèse,chemin de Charneux,9.0,6900.0,Roy,+32(0)486 13 42 14,,,+32(0)84 34 40 55,Gîte non fumeur.,
-15,LA LUCIOLE,Rue Saint-Laurent,10,6900,Marche-en-Famenne,0478 33 68 30,,,,http://www.angeliquelaeremans.be,info@angeliquelaeremans.be,5.3444956,50.2275087,1,0,0,la-luciole,,,Laeremands,Angélique,,,,,,,,,Gîte urbain et créatrice d'intérieur,
-16,Sous Le Hêtre,Chemin de Matoufosse,11,6900,Roy,,,,,,,5.40942,50.1881,0,0,0,sous-le-hetre,,,,,Chemin de Matoufosse,5.0,6900.0,Roy,+32(0)489 60 29 57,,,,,
+,societe,rue,numero,cp,localite,telephone,gsm,website,email,longitude,latitude
+0,La Sapinière,rue  la Sapinière,1,6900,Humain,,,https://www.sapiniere-humain.com/,maisonlasapiniere@gmail.com,5.2537810277557,50.201703768098
+1,La belle vue,chemin des Bacs,2,6900,Roy,,,,,5.4069632291794,50.185554740911
+2,Le Fond des Vaulx,Fond des Vaulx,17A,6900,Marche-en-Famenne,,,,,5.3564357757568,50.227843113577
+3,Sous le Frene,Chemin de Matoufosse,11,6900,Roy,,,,,5.40942,50.1881
+4,Au Cri du Paon,rue du Petit Bois,41,6900,Waha,,,,,5.3506368398666,50.209417584247
+5,LES ATELIERS GERNY,Rue du Gerny,26,6900,Humain,,0497 15 66 54,http://www.lesateliersgerny.be/,laetitia@lesateliersgerny.be,5.254857769311507,50.20099796502508
+6,La Retirée,rue de la Reine des Prés,2,6900,Grimbiémont,+32(0)475 23 83 51,,,francq.martin@gmail.com,5.4268014576721,50.204552789467
+7,Ardenne BnB Gîte,rue des armoiries,11,6900,Marche-en-Famenne,,,,,5.3452104933929,50.226126324272
+8,Chez Ines,rue du Progrès,18,6900,Marloie,,,,,5.3185522556305,50.205277039551
+9,La Cabane Panoramique,rue du Gerny,58,6900,Humain,,,,,5.2502417564392,50.199333391079
+10,A l'orée du bois,chemin des Bacs,2,6900,Roy,+32(0)495 54 98 61,+32(0)495 54 98 61,https://www.nosgitesenardenne.com,nosgitesenardenne@gmail.com,5.4069578647614,50.185530696921
+11,Ferme aux Moines,rue de Thys,38,6900,Humain,+32(0)497 46 22 20,,http://www.monnikshoeve.com,gj@earlgreyestates.com,5.2521073293304,50.204093558919
+12,LE BERC'AYE,Rue des Godis,15,6900,Aye,,0468 37 39 67,,lebercaye@hotmail.com,5.2883305,50.2247723
+13,La Vieille Cinse,chemin de Charneux,5,6900,Roy,,,,,5.4019233584404,50.185635459935
+14,Au Vieux Pommier,chemin de Charneux,9,6900,Roy,+32(0)486 13 42 14,+32(0)84 34 40 55,http://giteauvieuxpommier.jimdo.com/,marie-therese.laurent@hotmail.com,5.4011964797974,50.185369258382
+15,LA LUCIOLE,Rue Saint-Laurent,10,6900,Marche-en-Famenne,0478 33 68 30,,http://www.angeliquelaeremans.be,info@angeliquelaeremans.be,5.3444956,50.2275087
+16,Sous Le Hêtre,Chemin de Matoufosse,11,6900,Roy,,,,,5.40942,50.1881
