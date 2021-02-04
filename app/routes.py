@@ -44,7 +44,7 @@ def user_pref_to_do(what):
             #what = {keys:val}
             location = val
             print(f"location = {location}")
-            return redirect(url_for("user_pref_location",what = what,location=location))
+            return redirect(url_for("user_pref_location",what = what, location=location))
 
     print(f"In user_pref {what}")
     message = "Où?"
@@ -53,16 +53,36 @@ def user_pref_to_do(what):
 
 @app.route('/user_pref/<what>/<location>', methods=['GET', 'POST'])
 def user_pref_location(what,location):
-    '''Here we configure the url path, and with we return a html, it's the same with other functions'''
+    '''
+    Recup le deuxième choix de l'user, 
+    redirige vers /user_pref/<what>/<location>
+    '''
 
     message = "Animation?"
+
+    if request.method == 'POST':
+        print('Dans troisième choix')
+        print(len(list(request.form.items())))
+        for keys, val in request.form.items():
+            print(keys,val)
+            #what = {keys:val}
+            animation = val
+            print(f"animation = {animation}")
+            return redirect(url_for("resultat",what = what, location=location, animation=animation))
 
     return render_template('user_pref_location.html', message=message,what=what,location=location)
 
 
+@app.route('/user_pref/<what>/<location>/<animation>/resultat', methods=['GET', 'POST'])
+def resultat(what,location, animation):
+    '''
+    Recup le deuxième choix de l'user, 
+    redirige vers /user_pref/<what>/<location>/<animation>
+    '''
 
+    message = "Animation?"
 
-
+    return render_template('resultat.html', message=message,what=what,location=location, animation=animation)
 
 
 

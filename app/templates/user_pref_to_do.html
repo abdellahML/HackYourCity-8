@@ -6,16 +6,16 @@
 </h3>
 
 <p>In user_pref_to_do.html</p>
-<form id="2" method="POST" onchange="this.submit();">
+<form action ="" id="2" method="POST" onchange="this.submit();">
     <!--
      <input type="radio" value="v0" class="face" name="face" src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200" alt="choix_0">
      <input type="image" value="v1" class="face" name="face" src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200" alt="choix_1">
       -->
-     <input type="radio" name="face2" value="choix3"><label for="choix3" checked="true">
-         <img src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200">
+     <input type="radio" name="interior" value="interior"><label for="interior" checked="true">
+         <img src="{{ url_for('static', filename='image/interior.jpg') }}" width="200" height="200">
      </label>
-     <input type="radio" name="plane2t" value="choix4"><label for="choix4" checked="true">
-         <img src="{{ url_for('static',  filename='image/planet.png') }}" width="200" height="200">
+     <input type="radio" name="exterior" value="exterior"><label for="exterior" checked="true">
+         <img src="{{ url_for('static',  filename='image/exterior.jpg') }}" width="200" height="200">
      </label>
 </form>
 
