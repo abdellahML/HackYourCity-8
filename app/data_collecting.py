@@ -70,13 +70,37 @@ class dataCollecting:
                           [3, 1, 3, 4, 5]])
 
         if persona == "famille":
-            if df['type'] == "famille":
-                df['score'] = 5
-            elif df["type"] == "solo":
-                df['score'] = 0
-            elif df['type'] == "friends":
-                df['score'] = 3
-            elif df['type'] == "tourist":
-                df['score'] = 3
-            elif df['type'] == "couple":
-                df['score'] = 3
+            val = self.switch_type(df['type'])
+            df['score'] = score[val, 0]
+        elif persona == "seul":
+            val = self.switch_type(df['type'])
+            df['score'] = score[val, 1]
+        elif persona =='amis':
+            val = self.switch_type(df['type'])
+            df['score'] = score[val, 2]
+        elif persona =='touriste':
+            val = self.switch_type(df['type'])
+            df['score'] = score[val, 3]
+        elif persona =='couple':
+            val = self.switch_type(df['type'])
+            df['score'] = score[val, 4]
+        
+        df['score'] = df['score'] + df['score_given']
+
+        return df
+    
+
+    def switch_type(self, type_name):
+        
+        if type_name == 'famille':
+            val = 0
+        elif type_name == 'seul':
+            val = 1
+        elif type_name == 'amis':
+            val = 2
+        elif type_name == 'touriste':
+            val = 3
+        elif type_name == 'couple':
+            val = 4
+
+        return val
