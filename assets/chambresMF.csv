@@ -1,4 +1,4 @@
-,societe,rue,numero,cp,localite,telephone,gsm,website,email,longitude,latitude
+,Nom,Adresse,Numéro,Code Postal,Localité,telephone,gsm,Site internet,email,Longitude,Latitude
 0,A la Pier'rare,rue de la Ferme,2,6900,Verdenne,+32(0)84 31 13 03,+32(0)498 31 46 55,http://chambreverdenne.skyrock.com,chemar@belgacom.net,5.3976291418076,50.235076826271
 1,La Ferme de la Seigneurie,rue de la Commanderie,23,6900,Hargimont,+32(0)84 21 34 14,+32(0)475 23 94 74,http://www.fermedelaseigneurie.be,alain.merenne@skynet.be,5.3033548593521,50.184180779158
 2,CH Maldague,Vieille Route de Liège,91,6900,Marche-en-Famenne,+32(0)484 07 10 13,+32(0)84 32 20 12,,evelynemaldague@yahoo.be,5.3441888093948,50.236909101112

@@ -1,4 +1,4 @@
-,id,nom,longitude,latitude,localite,descriptif,commentaire,images,photo,type,statutTxt,geopoint
+,id,nom,Longitude,Latitude,Localité,descriptif,commentaire,images,photo,type,statutTxt,geopoint
 0,4,sans nom,5.428250407639461,50.205229843306434,Grimbiémont,"Croix en bois,  il manque le Christ.
 Rue du Chant d'Oiseau",,,,Croix,,"50.2052298433,5.42825040764"
 1,6,sans nom,5.427875029523903,50.204866920846385,Grimbiémont,"Statuette de la Vierge de Banneux, rue du Chant d'Oiseau dans une niche sur une ferme",,,,Vièrge,Privé,"50.2048669208,5.42787502952"
