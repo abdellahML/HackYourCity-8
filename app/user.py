@@ -11,8 +11,8 @@ df = pd.DataFrame(mock_users)
 print(df.head())
 #df.to_csv("test.csv")
 '''
-df = pd.read_csv("test.csv")
-df.drop("Unnamed: 0",axis=1,inplace=True)
+#df = pd.read_csv("test.csv")
+#df.drop("Unnamed: 0",axis=1,inplace=True)
 class User:
     def __init__(self,id_=9,personnas="seul",what="Sport",location="Interior",animation="Relaxation"):
         self.id = id_
