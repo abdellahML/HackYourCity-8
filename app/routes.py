@@ -125,5 +125,6 @@ def login():
 @app.route('/valid')
 def valid():
     "Renvoie sur la page de validation avec possible map"
+    message = 'Itinéraire'
     #return render_template(folium object > check doc folium)
-    return render_template ("valid.html")
+    return render_template ("valid.html", message=message)

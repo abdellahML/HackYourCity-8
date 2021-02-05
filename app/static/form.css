@@ -21,3 +21,8 @@ form#choice {
         width: 100%;
         height: auto;
     }
+#map img {
+    width: calc(100% - 8px);
+    border: 1px solid rgb(31, 45, 66);
+    padding: 3px 3px 0 3px;
+}
