@@ -101,7 +101,7 @@ def resultat(what,location, animation,user):
     '''
 
     message = "Voyons voir ce qu'on pourrait vous proposer..."
-    propositions = dataCollecting.return_activities_places(dataCollecting,what=what,location=location,animation=animation)
+    propositions= dataCollecting.return_activities_places(dataCollecting,what=what,location=location,animation=animation)
     try:
         return render_template('resultat.html', message=message,what=what,location=location, animation=animation,user=user,propositions=propositions)
     except:
