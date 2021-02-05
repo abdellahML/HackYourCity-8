@@ -42,6 +42,8 @@ d'autres paramètres et choix seraient implémentables facilement. Que ce soit p
 1. Pour une amélioration des recommandations
 2. Pour des informations utiles pour la ville quant aux préférences de leurs visiteurs.
 
+![img](fake.png)
+
 - Donnée météo et date:
 1. Pour encore plus de précision dans les recommandations.
 
