@@ -1,8 +1,11 @@
 {% extends "layout.html" %}
 {% block content %}
 
-<h2>
-    LA MAP ET AUTRES INFOS A VOIR
-</h2>
+<div id="message">
+    {{message}}
+</div>
+<div id="map">
+    <img src="{{ url_for('static', filename='image/map.png') }}" alt="carte">
+</div>
 
 {% endblock %}

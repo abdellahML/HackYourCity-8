@@ -14,11 +14,12 @@ print(df.head())
 df = pd.read_csv("test.csv")
 df.drop("Unnamed: 0",axis=1,inplace=True)
 class User:
-    def __init__(self,id_=9,what="Sport",location="Interior",animation="Relaxation"):
+    def __init__(self,id_=9,personnas="seul",what="Sport",location="Interior",animation="Relaxation"):
         self.id = id_
         self.what = what
         self.location = location
         self.animation = animation
+        self.peronnas = personnas
     
     def saveUser(self):
         log = df[df["ID"]==self.id]
@@ -30,15 +31,9 @@ class User:
         return "User{} already in files".format(self.id)
     
     def __str__(self):
-        return "User params are : ID={} \n{} \n{} \n{}".format(self.id,self.what,self.location,self.animation)
+        return "User params are : ID={} \n{} \n{} \n{} \n{}".format(self.id,self.what,self.location,self.animation,self.peronnas)
         
 
 
-user = User(id_=14)
-print(user.saveUser())
 
-df = pd.read_csv("test.csv")
-df.drop("Unnamed: 0",axis=1,inplace=True)
-print(df)
-        
         

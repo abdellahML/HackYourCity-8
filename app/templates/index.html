@@ -1,13 +1,13 @@
 {% extends "layout.html" %}
 {% block content %}
 
-<h3>
+<div id="message">
     {{message}}
-    {{test}}
-</h3>
-<form>
-    <a href='/user_pref' id='test'>On se connait?</a>
-    <a href='/login' id='test'>My MAN !</a>
-</form>
-
+</div>
+<div id="form">
+    <form>
+        <a href='/personnas' id='test'>Nouvel user</a>
+        <a href='/login' id='test'> Already have an account</a>
+    </form>
+</div>
 {% endblock %}

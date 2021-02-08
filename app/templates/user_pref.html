@@ -1,21 +1,24 @@
 {% extends "layout.html" %}
 {% block content %}
 
-<h3>
+<div id="message">
     {{message}}
-</h3>
-
-<form action ="" id="1" method="POST" onchange="this.submit();">
-   <!--
-    <input type="radio" value="v0" class="face" name="face" src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200" alt="choix_0">
-    <input type="image" value="v1" class="face" name="face" src="{{ url_for('static', filename='image/facebook.png') }}" width="200" height="200" alt="choix_1">
-    -->
-    <input type="radio" name="sport" value="sport" id="sport"><label for="sport" checked="true">
-        <img src="{{ url_for('static', filename='image/sport.jpg') }}" width="200" height="200">
-    </label>
-    <input type="radio" name="musee" value="musee" id="musee"><label for="musee" checked="true">
-        <img src="{{ url_for('static',  filename='image/musee.jpg') }}" width="200" height="200">
-    </label>
-</form>
+</div>
+<div id="form">
+    <form id="choice" method="POST" onchange="this.submit();">
+        <div id="item0">
+            <input type="radio" name="sport" value="sport" id="sport">
+            <label for="sport">
+                <img src="{{ url_for('static', filename='image/sport2.jpg') }}">
+            </label>
+        </div>
+        <div id="item1">
+            <input type="radio" name="musee" value="musee" id="musee">
+            <label for="musee">
+                <img src="{{ url_for('static',  filename='image/musee.jpg') }}">
+            </label>
+        </div>
+    </form>
+</div>
 
 {% endblock %}

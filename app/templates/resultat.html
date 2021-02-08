@@ -1,32 +1,54 @@
 {% extends "layout.html" %}
 {% block content %}
 
-<h3>
+<div id="message">
     {{message}}
-
-</h3>
+</div>
 <!--
     {{what}}
     {{location}}
     {{animation}}
 -->
-    {{user}}
 
 <div>
-    <div class="result">
-
+    {% for propo in propositions %}
+    <div id="result" style="background-image: url({{ url_for('static', filename='image/art.jpg')}})">
+        <div class="result proposition">
+            <label>Event : </label>
+            <span class="proposition event">{{propo[0]}}</span>
+        </div>
+        <div class="result proposition">
+            <label>Date : </label>
+            <span class="proposition date">{{propo[1]}}</span>
+        </div>
+        <div class="result proposition">
+            <label>Adresse : </label>
+            <span class="proposition address">{{propo[2]}}</span>
+        </div>
+        <div class="result proposition">
+            <label>Ville : </label>
+            <span class="proposition town">{{propo[3]}}</span>
+        </div>
+        <div class="result proposition">
+            <label>Plus d'infos : </label>
+            <span class="proposition desc">{{propo[4]}}</span>
+        </div>
+        <div class="result proposition">
+            <label>Horaire et Tarifs : </label>
+            <span class="proposition schedule">{{propo[5]}}</span>
+        </div>
+        <div class="result proposition">
+            <label>Site : </label>
+            <span class="proposition site">{{propo[6]}}</span>
+        </div>
     </div>
-    <div class="result">
-
-    </div>
-    <div class="result"> 
-
+    {% endfor %}
+    <div id="send">
+        <form id='validate'>
+            <a href='/valid' id='test'>Validez ces propositions?</a>
+            <a href='/login' id='test'>Pas encore inscrit?</a>
+        </form>
     </div>
 </div>
-
-<form>
-    <a href='/valid' id='test'>Validez ces propositions?</a>
-    <a href='/login' id='test'>Pas encore inscrit?</a>
-</form>
 
 {% endblock %}
